@@ -1,17 +1,16 @@
 #include<stdio.h>
-int main() {
-  int a[100],b,i,j;
-  scanf("%c",a[i]);
-  for(i=0;a[i]!='';i++)
+int main() 
+{
+  char a[100];
+  int b=0,i,j;
+  scanf("%s",&a);
+  for(i=0;a[i]!='\0';i++)
   {
       b++;
   }
-  for(i=0;a[i]!='';i++)
-  {
-  for(j=b;j=0;j--);
+  for(i=b;i>=0;i--)
   {
   printf("%c",a[i]);
-  }
   }
   return 0;
 }
